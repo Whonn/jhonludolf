@@ -28,7 +28,7 @@ export const PROJECTS = [
     title: 'VOLT Athletic Club',
     category: 'Fitness & Wellness',
     badge: 'Gym Site',
-    image: null,
+    image: '/volt-preview.png',
     url: 'https://volt-ruby-five.vercel.app',
     repo: null,
     year: '2026',
