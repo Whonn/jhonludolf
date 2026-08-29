@@ -46,6 +46,29 @@ export const PROJECTS = [
     ],
     stack: ['Next.js', 'React', 'Tailwind CSS', 'Vercel'],
   },
+  {
+    id: 'anchorpoint',
+    title: 'AnchorPoint',
+    category: 'Maritime Operations',
+    badge: 'Web App',
+    image: '/anchorpoint-preview.png',
+    url: null,
+    repo: 'https://github.com/Whonn/Anchorpoint',
+    year: '2026',
+    role: 'Full-Stack Development',
+    tags: ['React', 'Flask', 'Python'],
+    summary:
+      'A maritime management web app that pulls scheduling, payroll, reporting, and weather into a single operations dashboard.',
+    overview:
+      'AnchorPoint is an internal tool for a port and shipping operator, built as a React front end against a Flask REST API. The app opens on a dark maritime landing page and drops into a sidebar-driven workspace where crew scheduling, payroll, and shipment reporting all live in one place instead of across separate spreadsheets.',
+    highlights: [
+      'Sidebar workspace covering Home, Scheduling, Reports, Payroll, and Weather from a single dashboard.',
+      'Interactive scheduling calendar with month navigation and date selection.',
+      'Recharts analytics over shipment and operations data, with Excel import and export handled server-side by openpyxl.',
+      'Gemini AI integration that summarizes operational data and surfaces performance trends.',
+    ],
+    stack: ['React', 'Flask', 'Python', 'Firebase', 'Recharts', 'Axios'],
+  },
 ]
 
 export function getProject(id) {
