@@ -23,6 +23,29 @@ export const PROJECTS = [
     ],
     stack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'GSAP', 'Resend', 'Lucide', 'Vercel'],
   },
+  {
+    id: 'volt',
+    title: 'VOLT Athletic Club',
+    category: 'Fitness & Wellness',
+    badge: 'Gym Site',
+    image: null,
+    url: 'https://volt-ruby-five.vercel.app',
+    repo: null,
+    year: '2026',
+    role: 'Design & Front-End Development',
+    tags: ['Next.js', 'React', 'Tailwind CSS'],
+    summary:
+      'A high-contrast landing page for a coached strength & conditioning gym — built to turn a scroll into a booked free week.',
+    overview:
+      'VOLT Athletic Club is a marketing site for a strength and conditioning gym that sells coaching, not equipment. The design leans on heavy condensed display type, a near-black palette, and a noise-textured surface to make the brand feel physical. Every section funnels toward one action: claiming a free first week.',
+    highlights: [
+      'Six program lanes laid out as a scannable grid, each with its own code, focus, and session length.',
+      'Scroll-triggered stat counters and a looping marquee that surface social proof without a testimonial wall.',
+      'Member results presented as hard numbers — load added, body fat lost, sessions kept — paired with short quotes.',
+      'Three-tier membership pricing with a highlighted default, closing on a no-card-required free week.',
+    ],
+    stack: ['Next.js', 'React', 'Tailwind CSS', 'Vercel'],
+  },
 ]
 
 export function getProject(id) {
