@@ -69,6 +69,28 @@ export const PROJECTS = [
     ],
     stack: ['React', 'Flask', 'Python', 'Firebase', 'Recharts', 'Axios'],
   },
+  {
+    id: 'hrmis',
+    title: 'HRMIS',
+    category: 'Government Systems',
+    badge: 'HR Platform',
+    image: '/hrmis-preview.png',
+    url: null,
+    repo: 'https://github.com/Nou02/HRMIS',
+    year: '2026',
+    role: 'Full-Stack Development',
+    tags: ['React', 'Laravel', 'Flask'],
+    summary:
+      'A human resource management information system for the Department of Information and Communications Technology, pulling personnel records and HR processes into one internal platform.',
+    overview:
+      'HRMIS is an internal human resource system built for the Department of Information and Communications Technology. The application opens on a branded splash screen carrying the agency identity, then moves staff into a single workspace for personnel records and day-to-day HR work. It was built as a full-stack project spanning a React interface and server-side APIs.',
+    highlights: [
+      'Branded entry screen that carries the DICT identity into the application before sign-in.',
+      'Single internal workspace for personnel records and HR processes.',
+      'Full-stack build spanning a React front end and server-side APIs.',
+    ],
+    stack: ['React', 'Laravel', 'PHP', 'Flask', 'Python', 'Node.js', 'Express'],
+  },
 ]
 
 export function getProject(id) {
